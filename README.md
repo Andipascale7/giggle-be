@@ -1,4 +1,4 @@
-## Giggle Backend 🎵 Group Project
+## Giggle Backend 🎵
 
 RESTful API and real-time messaging server for the Giggle mobile app - connecting gig-goers through free ticket sharing.
 
@@ -6,10 +6,11 @@ Built by isLoading team for Northcoders bootcamp final project.
 
 🔗 Frontend Repository: Giggle FE
 
-About
+## About
+
 Backend API for a community-driven ticket sharing platform. Handles user authentication, event management, ticket listings, and real-time messaging - all focused on free ticket sharing with no reselling.
 
-Key Features
+## Key Features:
 
 🎫 Event & Ticket API - Browse events, manage ticket listings, Ticketmaster integration
 
@@ -22,17 +23,19 @@ Key Features
 🗄️ MongoDB Database - Flexible schema with Mongoose ODM
 
 
-Quick Start
+## Quick Start:
 
 Prerequisites:Node.js (v14+), MongoDB
 
 Clone and install
 
 git clone https://github.com/Andipascale7/giggle-be.git
+
 cd giggle-be
+
 npm install
 
-Environment setup:
+## Environment setup:
 
 - Create .env.development
   MONGO_DEV=mongodb://localhost:27017/giggle
@@ -45,32 +48,26 @@ Environment setup:
 
   
 
-Tech Stack
+## Tech Stack:
+
+Express.js + TypeScript - API development
+
+MongoDB + Mongoose - Database and ODM
+
+Socket.IO - Real-time messaging
+
+Jest - Testing
+
+## 🤝 Contributing:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+*Building community through music, one shared ticket at a time* 🎸
 
 
-- **RESTful API** built with Express.js and TypeScript
-- **MongoDB** database with Mongoose ODM
-- **Socket.IO** for real-time communication (separate port)
-- **Ticketmaster Discovery API** for event data
-
-
-### Testing
-- **Jest** for unit testing
-
-
-
-### Key API Endpoints
-- `GET /events` - Fetch upcoming events
-- `POST /tickets` - Upload new ticket listings  
-- `GET /tickets/:eventId` - Get tickets for specific event
-- `GET /chats` - Fetch user's active conversations
-- `GET /chats/:id` - Get chat history for specific conversation
-
-
-## 👥 The Team - isLoading
-
-- [**Andi Pascale**](https://www.linkedin.com/in/andipascale/)
-- [**Bethany White**](https://www.linkedin.com/in/bethpwhite/) 
-- [**David Potter**](https://www.linkedin.com/in/dg-potter013/)
-- [**Leah Stone**](https://www.linkedin.com/in/leah-s-ba9004130/) 
-- [**Uzo Ugochukwu**](https://github.com/uzougochukwu)
