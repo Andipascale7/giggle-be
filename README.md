@@ -38,13 +38,17 @@ npm install
 ##  🔧   Environment setup
 
 - Create .env.development
+  
   MONGO_DEV=mongodb://localhost:27017/giggle
 
 - Create .env.test
+  
  MONGO_DEV=mongodb://localhost:27017/giggle
 
   Start servers:
-  Main API server  --> npm run dev
+  Main API server  
+  
+  npm run dev
 
   
 
