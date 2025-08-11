@@ -1,4 +1,4 @@
-## Giggle Backend 🎵
+## Giggle Backend 🎵 Group Project
 
 RESTful API and real-time messaging server for the Giggle mobile app - connecting gig-goers through free ticket sharing.
 
@@ -47,8 +47,30 @@ Environment setup:
 
 Tech Stack
 
-Express.js + TypeScript - API development
-MongoDB + Mongoose - Database and ODM
-Socket.IO - Real-time messaging
-Jest - Testing
 
+- **RESTful API** built with Express.js and TypeScript
+- **MongoDB** database with Mongoose ODM
+- **Socket.IO** for real-time communication (separate port)
+- **Ticketmaster Discovery API** for event data
+
+
+### Testing
+- **Jest** for unit testing
+
+
+
+### Key API Endpoints
+- `GET /events` - Fetch upcoming events
+- `POST /tickets` - Upload new ticket listings  
+- `GET /tickets/:eventId` - Get tickets for specific event
+- `GET /chats` - Fetch user's active conversations
+- `GET /chats/:id` - Get chat history for specific conversation
+
+
+## 👥 The Team - isLoading
+
+- [**Andi Pascale**](https://www.linkedin.com/in/andipascale/)
+- [**Bethany White**](https://www.linkedin.com/in/bethpwhite/) 
+- [**David Potter**](https://www.linkedin.com/in/dg-potter013/)
+- [**Leah Stone**](https://www.linkedin.com/in/leah-s-ba9004130/) 
+- [**Uzo Ugochukwu**](https://github.com/uzougochukwu)
