@@ -4,7 +4,9 @@ RESTful API and real-time messaging server for the Giggle mobile app - connectin
 
 Built by isLoading team for Northcoders bootcamp final project.
 
-🔗 Frontend Repository: Giggle FE
+🔗 **Frontend Repository:**[Giggle FE](https://github.com/Andipascale7/giggle-fe.git)
+
+
 
 ## 📖 About
 
